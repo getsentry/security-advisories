@@ -1,64 +1,48 @@
-name: Bug Report
+name: Security Advisory
 description: File a bug report
-title: "[Bug]: "
-labels: ["bug", "triage"]
-projects: ["octo-org/1", "octo-org/44"]
-assignees:
-  - octocat
+title: "[Security Advisory]: "
+labels: ["security", "advisory"]
+
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
-  - type: input
-    id: contact
-    attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
-    validations:
-      required: false
+        Complete this form to file a security advisory
   - type: textarea
-    id: what-happened
+    id: desc
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
+      label: Security Advisory Description
+      description: Describe the vulnerability this advisory addresses
       placeholder: Tell us what you see!
-      value: "A bug happened!"
+      value: "The advisory..."
     validations:
       required: true
-  - type: dropdown
-    id: version
+   - type: textarea
+    id: impact
     attributes:
-      label: Version
-      description: What version of our software are you running?
-      options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
-      default: 0
+      label: Security Advisory Impact
+      description: Describe the impact of the vulnerability this advisory addresses
+      placeholder: Tell us what you see!
+      value: "The impact..."
     validations:
       required: true
-  - type: dropdown
-    id: browsers
+   - type: textarea
+    id: workaround
     attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
-  - type: textarea
-    id: logs
+      label: Security Advisory Workaround(s)
+      description: Describe the workaround(s) for this vulnerability
+      placeholder: Tell us what you see!
+      value: "The workaround(s)..."
+    validations:
+      required: true
+   - type: textarea
+    id: more
     attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
+      label: Security Advisory Additional Information
+      description: Additional information for the vulnerability this advisory addresses
+      placeholder: Tell us what you see!
+      value: "See 1..."
+      value: "See 2..."
+    validations:
+      required: true
+
