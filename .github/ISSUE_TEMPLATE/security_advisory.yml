@@ -35,6 +35,18 @@ body:
     validations:
       required: true
   - type: textarea
+    id: cvss
+    attributes:
+      label: CVSS 3.1 Score and Vector/Tuple
+      description: CVSS 3.1 Score and Vector/Tuple
+      placeholder: Tell us what you see!
+      value: "Using https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator score this advisory and insert here."
+      value: "Example:"
+      value: "CVSS Score: 5.1"
+      value: "CVSS Vector: AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L/E:U/RL:X/RC:X"
+    validations:
+      required: true
+  - type: textarea
     id: additional
     attributes:
       label: Information
