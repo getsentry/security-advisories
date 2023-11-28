@@ -6,17 +6,40 @@ body:
   - type: markdown
     attributes:
       value: |
-        Please complete all sections to file a security advisory!
+        Please complete all sections of this template to file a security advisory!
   - type: textarea
     id: desc
     attributes:
-      label: Security Advisory Description
-      description: Please address the vulnerability, which repo it addresses, etc
+      label: Description
+      description: Describe the security advisory vulnerability
       placeholder: Tell us what you see!
-      value: "This security advisory..."
+      value: "The vulnerability"
     validations:
       required: true
-    - type: markdown
+  - type: textarea
+    id: impact
     attributes:
-      value: |
-        Please complete all sections to file a security advisory!
+      label: Impact
+      description: Describe the security advisory impact
+      placeholder: Tell us what you see!
+      value: "The impact"
+    validations:
+      required: true
+  - type: textarea
+    id: workarounds
+    attributes:
+      label: Workarounds
+      description: Describe the security advisory workarounds, if any
+      placeholder: Tell us what you see!
+      value: "The workarounds"
+    validations:
+      required: true
+  - type: textarea
+    id: additional
+    attributes:
+      label: Information
+      description: Additional Information
+      placeholder: Tell us what you see!
+      value: "Additional information..."
+    validations:
+      required: true
