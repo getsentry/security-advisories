@@ -13,7 +13,7 @@ body:
       label: Description
       description: Describe the security advisory vulnerability
       placeholder: Tell us what you see!
-      value: "The vulnerability"
+      value: "The vulnerability..."
     validations:
       required: true
   - type: textarea
@@ -22,7 +22,7 @@ body:
       label: Impact
       description: Describe the security advisory impact
       placeholder: Tell us what you see!
-      value: "The impact"
+      value: "The impact..."
     validations:
       required: true
   - type: textarea
@@ -31,7 +31,7 @@ body:
       label: Workarounds
       description: Describe the security advisory workarounds, if any
       placeholder: Tell us what you see!
-      value: "The workarounds"
+      value: "The workarounds..."
     validations:
       required: true
   - type: textarea
