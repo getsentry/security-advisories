@@ -2,6 +2,8 @@ name: Security Advisory
 description: File a bug report
 title: "[Security Advisory]: "
 labels: ["security", "advisory"]
+projects:
+assignees:
 body:
   - type: markdown
     attributes:
