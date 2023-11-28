@@ -1,4 +1,4 @@
-Security Advisory
+name: Security Advisory
 description: Security Advisory for a Vulnerability
 body:
   - type: textarea
