@@ -9,13 +9,13 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Please complete all sections to file a security advisory!
   - type: textarea
-    id: what-happened
+    id: desc
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
+      label: Security Advisory Description
+      description: Please address the vulnerability, which repo it addresses, etc
       placeholder: Tell us what you see!
-      value: "A bug happened!"
+      value: "This security advisory..."
     validations:
       required: true
