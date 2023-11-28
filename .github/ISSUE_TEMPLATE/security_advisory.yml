@@ -2,9 +2,6 @@ name: Security Advisory
 description: File a Security Advisory
 title: "[Security Advisory]: "
 labels: ["security", "advisory"]
-projects: []
-assignees:
-  - 
 body:
   - type: markdown
     attributes:
@@ -17,19 +14,6 @@ body:
       description: Please address the vulnerability, which repo it addresses, etc
       placeholder: Tell us what you see!
       value: "This security advisory..."
-    validations:
-      required: true
-    - type: markdown
-    attributes:
-      value: |
-        Please complete all sections to file a security advisory!
-  - type: textarea
-    id: impact
-    attributes:
-      label: Security Advisory Impact
-      description: Describe the impact of the vulnerability this advisory addresses
-      placeholder: Tell us what you see!
-      value: "The security impact..."
     validations:
       required: true
     - type: markdown
