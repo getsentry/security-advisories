@@ -19,3 +19,31 @@ body:
       value: "This security advisory..."
     validations:
       required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Security Advisory Impact
+      description: Describe the impact of the vulnerability this advisory addresses
+      placeholder: Tell us what you see!
+      value: "The impact..."
+    validations:
+      required: true
+- type: textarea
+    id: workaround
+    attributes:
+      label: Security Advisory Workaround(s)
+      description: Describe the workaround(s) for this vulnerability
+      placeholder: Tell us what you see!
+      value: "The workaround(s)..."
+    validations:
+      required: true
+- type: textarea
+    id: more
+    attributes:
+      label: Security Advisory Additional Information
+      description: Additional information for the vulnerability this advisory addresses
+      placeholder: Tell us what you see!
+      value: "See 1..."
+      value: "See 2..."
+    validations:
+      required: true
