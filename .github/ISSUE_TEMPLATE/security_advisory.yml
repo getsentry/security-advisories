@@ -42,8 +42,8 @@ body:
       placeholder: Tell us what you see!
       value: |
         Example:
-                 CVSS Score: 5.1
-                 CVSS Vector: AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L/E:U/RL:X/RC:X"
+                   CVSS Score: 5.1
+                   CVSS Vector: AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L/E:U/RL:X/RC:X"
     validations:
       required: true
   - type: textarea
