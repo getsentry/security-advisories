@@ -5,11 +5,11 @@ labels: ["security", "advisory"]
 projects:
 assignees:
 body:
-  - type: markdown
+- type: markdown
     attributes:
       value: |
         Complete this form to file a security advisory
-  - type: textarea
+- type: textarea
     id: desc
     attributes:
       label: Security Advisory Description
@@ -18,7 +18,7 @@ body:
       value: "The advisory..."
     validations:
       required: true
-   - type: textarea
+- type: textarea
     id: impact
     attributes:
       label: Security Advisory Impact
@@ -27,7 +27,7 @@ body:
       value: "The impact..."
     validations:
       required: true
-   - type: textarea
+- type: textarea
     id: workaround
     attributes:
       label: Security Advisory Workaround(s)
@@ -36,7 +36,7 @@ body:
       value: "The workaround(s)..."
     validations:
       required: true
-   - type: textarea
+- type: textarea
     id: more
     attributes:
       label: Security Advisory Additional Information
