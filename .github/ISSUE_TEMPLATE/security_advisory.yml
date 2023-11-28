@@ -19,3 +19,17 @@ body:
       value: "This security advisory..."
     validations:
       required: true
+    - type: markdown
+    attributes:
+      value: |
+        Please complete all sections to file a security advisory!
+  - type: textarea
+    id: impact
+    attributes:
+      label: Security Advisory Impact
+      description: Describe the impact of the vulnerability this advisory addresses
+      placeholder: Tell us what you see!
+      value: "The security impact..."
+    validations:
+      required: true
+    
