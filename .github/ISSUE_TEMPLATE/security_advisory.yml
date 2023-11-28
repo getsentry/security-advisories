@@ -38,7 +38,7 @@ body:
     id: cvss
     attributes:
       label: CVSS 3.1 Score and Vector
-      description: Using [this URL] (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator) score this advisory and insert below
+      description: Using https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator score this advisory and insert below
       placeholder: Tell us what you see!
       value: |
         Example:
