@@ -5,7 +5,7 @@ labels: ["security", "advisory"]
 projects:
 assignees:
 body:
-- type: markdown
+  - type: markdown
     attributes:
-      value: |
-        Complete this form to file a security advisory
+    value: |
+      Complete this form to file a security advisory
