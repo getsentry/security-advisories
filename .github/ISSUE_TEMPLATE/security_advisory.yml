@@ -8,6 +8,18 @@ body:
       value: |
         Please complete all sections of this template to file a security advisory!
   - type: textarea
+    id: package
+    attributes:
+      label: Package and Versions
+      description: Describe the package, affected version(s), and patched version
+      placeholder: Tell us what you see!
+      value: |
+        Package: 
+        Affected Version(s): 
+        Patched Version(s):
+    validations:
+      required: true
+  - type: textarea
     id: desc
     attributes:
       label: Description
@@ -23,6 +35,15 @@ body:
       description: Describe the security advisory impact
       placeholder: Tell us what you see!
       value: "The impact..."
+    validations:
+      required: true
+  - type: textarea
+    id: patches
+    attributes:
+      label: Patches
+      description: Describe the security advisory patche(s)
+      placeholder: Tell us what you see!
+      value: "The patch..."
     validations:
       required: true
   - type: textarea
