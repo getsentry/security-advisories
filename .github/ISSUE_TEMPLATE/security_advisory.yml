@@ -14,9 +14,9 @@ body:
       description: Describe the package, affected version(s), and patched version
       placeholder: Tell us what you see!
       value: |
-        **Package:**  
-        **Affected Version(s):**  
-        **Patched Version(s):**
+        Package:  
+        Affected Version(s):  
+        Patched Version(s):  
     validations:
       required: true
   - type: textarea
